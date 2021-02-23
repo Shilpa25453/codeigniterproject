@@ -1,0 +1,12 @@
+<?php
+$x=1;
+$limit=10;
+sum=0;
+do
+{
+$sum=$sum+$limit;
+$x++;
+}
+while($x<=$limit);
+echo"sum";
+?>

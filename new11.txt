@@ -1,0 +1,8 @@
+<?PHP
+function hello($name)
+{
+echo"hello$name"<br>
+}
+say hello("shilpa");
+say hello("megha");
+?>

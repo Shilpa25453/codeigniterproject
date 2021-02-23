@@ -1,0 +1,11 @@
+<?php
+$link=mysqli_connect("localhost","root","","demo");
+if(mysqli_query($sql))
+{
+echo"table created successfully";
+}
+else
+{
+echo"error creating table:".mysqli_errror();
+}
+?>
